@@ -3,7 +3,7 @@ import Trainform from "./components/Trainform";
 import "./App.css";
 import Traincard from "./components/Traincard";
 import Navbar from "./components/Navbar";
-
+import Footer from "./components/Footer";
 function App() {
   const [fromStation, setFromStation] = useState("");
 
@@ -48,6 +48,7 @@ function App() {
           />
         ))}
       </div>
+      <Footer />
     </div>
   );
 }
